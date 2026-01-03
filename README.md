@@ -63,7 +63,7 @@ Run MCP Runtime Readiness Analyzer first. Know exactly what your computer can ha
 
 Run a check on a project with large datasets:
 
-python mcp_runtime_analyzer.py ./my_project
+python server.py ./my_project
 
 
 Sample output:
