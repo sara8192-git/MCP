@@ -1,39 +1,33 @@
-:
-
 🚀 Runtime Readiness Analyzer (MCP)
 
-Check your computer – before your project takes off!
+Make sure your computer is ready before your project takes off!
 
-Runtime Readiness Analyzer is a smart tool that ensures your computer is ready to run heavy projects, especially Python and Machine Learning. No more surprises with low RAM or huge models – everything is summarized in a clear readiness report.
+Runtime Readiness Analyzer quickly checks if your system can handle heavy projects, especially Python and Machine Learning. No surprises with low RAM, slow CPU, or large models – get a clear readiness report in seconds.
 
-✨ Key Features
+✨ Highlights
 
-🖥️ Checks CPU, RAM, GPU, and storage.
+🖥️ System check: CPU, RAM, GPU, and storage
 
-⚡ Detects heavy requirements like large models and intensive computation libraries.
+⚡ Detect heavy computational requirements automatically
 
-📄 Generates a clear summary report in text or JSON format.
+📄 Clear summary report in text or JSON
 
-⏱️ Asynchronous execution – fast and efficient.
+⏱️ Fast and efficient thanks to asynchronous execution
 
-🚀 How to Get Started
+🚀 Quick Start
 
-Install Python 3.11+ and required libraries:
+Install Python 3.11+
 
-pip install psutil asyncio
+Install dependencies: pip install psutil asyncio
 
+Run the server: python server.py
 
-Run the local server:
-
-python server.py
-
-
-Once the server is running, it will automatically scan your computer and generate a summary report.
+Let it scan your system and generate a readiness report automatically
 
 📝 Notes
 
-Intended for local use only.
+Local use only
 
-Can be extended to check dependencies, library versions, and more.
+Easily extendable to check dependencies or library versions
 
-Fully asynchronous – fast and efficient.
+Asynchronous and efficient
